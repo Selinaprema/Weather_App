@@ -1,0 +1,71 @@
+/* WeatherApp.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px #00000033;
+  width: 400px;
+  text-align: center;
+}
+
+.weather-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #007acc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weather-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-shadow: inset 0px 2px 5px #0000001a;
+}
+
+.weather-container button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #007acc; /* Button background color */
+  color: white;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.weather-info {
+  margin-top: 30px;
+  text-align: left;
+  width: 100%;
+}
+
+.weather-info h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.weather-info img {
+  display: block;
+  margin-top: 30px;
+  margin-left: 125px;
+}
