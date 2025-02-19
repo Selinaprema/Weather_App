@@ -7,7 +7,6 @@ This React app fetches and displays the current weather for a user-specified cit
 - Users can enter a city name to get the current weather.
 - Fetches data from the [WeatherAPI](https://www.weatherapi.com/).
 - Displays weather information in a user-friendly format.
-- (Optional) Uses geolocation to fetch and display the user's local weather.
 
 ## Technologies Used
 - **React**: For building the user interface.
