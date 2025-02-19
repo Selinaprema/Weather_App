@@ -27,12 +27,12 @@ This React app fetches and displays the current weather for a user-specified cit
     npm install
 
 ## Get an API Key
-Get an API key from [WeatherAPI](https://www.weatherapi.com/) and create a `.env` file in the root directory with the following content:
+1. Get an API key from [WeatherAPI](https://www.weatherapi.com/) and create a `.env` file in the root directory with the following content:
     ```ini
       REACT_APP_WEATHER_API_KEY=your_api_key_here
 
 ## Run the Application
-1. To start the application, run::
+1. To start the application, run:
     ```bash
     npm start
 
